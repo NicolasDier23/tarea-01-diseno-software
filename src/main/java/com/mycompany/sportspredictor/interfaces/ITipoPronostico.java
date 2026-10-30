@@ -9,5 +9,5 @@ package com.mycompany.sportspredictor.interfaces;
  * @author nicol
  */
 public interface ITipoPronostico {
-    
+   int calcularPuntos(); 
 }
