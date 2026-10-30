@@ -8,6 +8,9 @@ package com.mycompany.sportspredictor.service;
  *
  * @author nicol
  */
-public class NotificacionEmailService {
-    
+public class NotificacionEmailService implements IServicioNotificacion {
+    @Override
+    public void enviarAlerta(String mensaje) {
+        System.out.println("[NOTIFICACIÓN EMAIL]: " + mensaje);
+    }
 }
